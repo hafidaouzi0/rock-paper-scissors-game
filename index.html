@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet" >
+</head>
+<body>
+
+<h4 id="totalScore">Total score:</h4>
+    <div class="container">
+
+       <div id="mCountainer" class="minContainer">
+    <button value="rock" class="btnClass click" onclick="playGame('rock')"> <span>✊</span></button>
+    <button value="paper" class="btnClass click " onclick="playGame('paper')">🤚</button>
+    <button  value="cissor" class="btnClass click" onclick="playGame('cissor')">✌️</button>
+       </div>
+    <div  id="score" class="scoreClass"></div>
+    <div  id="hands" class="scoreClass"></div>
+    <div  id="result" class="scoreClass"></div>
+<button id="resetBtn" value="reset" class="btnClass" onclick="clearData()">🔴</button>
+
+
+    </div>
+
+
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
